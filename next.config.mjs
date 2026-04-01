@@ -31,6 +31,7 @@ const nextConfig = {
   },
   turbopack: {},
   serverExternalPackages: [
+    '@solana/web3.js',
     '@solana/connector',
     '@solana/kit',
     '@solana/rpc-subscriptions-channel-websocket',
