@@ -2,9 +2,11 @@
 
 import { ArrowRight, Paperclip, Send, Info, Github } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { WalletButton } from '@/components/wallet-button'
+import dynamic from 'next/dynamic'
 import Script from 'next/script'
 import { motion } from 'framer-motion'
+
+const WalletButton = dynamic(() => import('@/components/wallet-button').then(mod => mod.WalletButton), { ssr: false })
 
 const features = [
   { label: 'Customer Outreach' },
