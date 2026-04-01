@@ -12,25 +12,12 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Orren - Your First Autonomous Builder',
-  description: 'Meet your first autonomous builder. Orren helps teams deploy AI operators that plan, execute, and scale workflows.',
+  title: 'Claude Code - Your First Autonomous Builder',
+  description: 'Meet your first autonomous builder. Claude Code helps teams deploy AI operators that plan, execute, and scale workflows.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/icon.png',
+    apple: '/icon.png',
   },
 }
 
